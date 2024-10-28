@@ -1,0 +1,71 @@
+/* Basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 80%;
+}
+
+/* Styling for storage stats section */
+.storage-stats {
+    width: 60%;
+}
+
+.storage-stats h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#trashcan-list {
+    list-style-type: none;
+}
+
+#trashcan-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    font-size: 1.1em;
+}
+
+/* Highlight bins needing attention */
+.alert {
+    color: red;
+    font-weight: bold;
+}
+
+/* Styling for map section */
+.map-section {
+    width: 35%;
+    text-align: center;
+}
+
+.map-section h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.map-section img {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
